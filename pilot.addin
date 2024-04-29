@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<!--This sets that this dll is an External Application, not External Command-->
+	<AddIn Type="Application">
+		<!--Name of the plugin, the user sees in always load popup window-->
+		<Name>pilot</Name>
+		<Assembly>pilot/pilot.dll</Assembly>
+		<FullClassName>pilot.Main</FullClassName>
+		<ClientId>b8d1e1ab-a9df-40df-8d52-d65243ae6c0c</ClientId>
+		<VendorId>SHIVA</VendorId>
+		<VendorDescription>shiva</VendorDescription>
+	</AddIn>
+</RevitAddIns>
+
